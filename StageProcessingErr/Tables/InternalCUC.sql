@@ -1,0 +1,27 @@
+﻿CREATE TABLE [StageProcessingErr].[InternalCUC] (
+    [SourceID]            INT            NULL,
+    [Code]                VARCHAR (200)  NULL,
+    [ErrorStatusId]       TINYINT        NULL,
+    [LegalDescription]    NVARCHAR (MAX) NULL,
+    [Province]            NVARCHAR (510) NULL,
+    [IsNativeLand]        NVARCHAR (510) NULL,
+    [IsEnergy]            NVARCHAR (510) NULL,
+    [IsVacantLand]        NVARCHAR (510) NULL,
+    [IsMunicipalAddress]  NVARCHAR (510) NULL,
+    [PropertyType]        NVARCHAR (510) NULL,
+    [TransactionType]     NVARCHAR (510) NULL,
+    [PurchasePrice]       NVARCHAR (510) NULL,
+    [UnitNumber]          NVARCHAR (510) NULL,
+    [StreetNumber]        NVARCHAR (510) NULL,
+    [StreetAddress1]      NVARCHAR (510) NULL,
+    [StreetAddress2]      NVARCHAR (510) NULL,
+    [Municipality]        NVARCHAR (510) NULL,
+    [City]                NVARCHAR (510) NULL,
+    [AddressID]           NVARCHAR (510) NULL,
+    [PIN]                 NVARCHAR (510) NULL,
+    [Country]             NVARCHAR (510) NULL,
+    [PostalCode]          NVARCHAR (510) NULL,
+    [OrganizationName]    NVARCHAR (510) NULL,
+    [CustomerClosingDate] NVARCHAR (510) NULL
+);
+

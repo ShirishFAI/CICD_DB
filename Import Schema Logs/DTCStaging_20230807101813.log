@@ -1,0 +1,10 @@
+07/08/2023 6:18:13 AM	This log contains information about the import schema operation into project 'DTCStaging' on computer 'DVPRIVMHO226' by user 'shiwaghmale'.
+07/08/2023 6:18:13 AM	Deserializing model
+07/08/2023 6:18:21 AM	Resolving model
+07/08/2023 6:18:27 AM	Visiting imported model for types
+07/08/2023 6:18:29 AM	Scanning project for duplicate elements
+07/08/2023 6:18:29 AM	Finished duplicate element processing
+07/08/2023 6:18:33 AM	Processing extra files
+07/08/2023 6:18:33 AM	Finished importing Data-tier Application file.
+07/08/2023 6:18:33 AM	A summary of the import was saved to the following location: C:\Users\shiwaghmale\Desktop\Shirish\Work\Test\VS Solution\DTCStaging\DTCStaging\Import Schema Logs\DTCStaging_20230807101813.log
+07/08/2023 6:18:33 AM	Click Finish to continue...

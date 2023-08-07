@@ -1,0 +1,27 @@
+﻿CREATE TABLE [StageLanding].[BC_Kelowna_Legal_Parcel] (
+    [KID]              NVARCHAR (MAX) NULL,
+    [kid_stat]         NVARCHAR (MAX) NULL,
+    [type]             NVARCHAR (MAX) NULL,
+    [plan_no]          NVARCHAR (MAX) NULL,
+    [lot]              NVARCHAR (MAX) NULL,
+    [block]            NVARCHAR (MAX) NULL,
+    [description]      NVARCHAR (MAX) NULL,
+    [full_address]     NVARCHAR (MAX) NULL,
+    [str_unit]         NVARCHAR (MAX) NULL,
+    [str_num]          NVARCHAR (MAX) NULL,
+    [str_name]         NVARCHAR (MAX) NULL,
+    [str_dir]          NVARCHAR (MAX) NULL,
+    [city]             NVARCHAR (MAX) NULL,
+    [postal_code]      NVARCHAR (MAX) NULL,
+    [strname]          NVARCHAR (MAX) NULL,
+    [strtype]          NVARCHAR (MAX) NULL,
+    [cap_str_name]     NVARCHAR (MAX) NULL,
+    [map_str_unit_num] NVARCHAR (MAX) NULL,
+    [common_name]      NVARCHAR (MAX) NULL,
+    [SHAPEarea]        NVARCHAR (MAX) NULL,
+    [SHAPElen]         NVARCHAR (MAX) NULL,
+    [OBJECTID]         NVARCHAR (MAX) NULL,
+    [SourceID]         INT            IDENTITY (1, 1) NOT NULL,
+    [Code]             VARCHAR (200)  NULL
+);
+

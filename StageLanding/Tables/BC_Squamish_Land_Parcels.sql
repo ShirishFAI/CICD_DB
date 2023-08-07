@@ -1,0 +1,25 @@
+﻿CREATE TABLE [StageLanding].[BC_Squamish_Land_Parcels] (
+    [OBJECTID]       NVARCHAR (MAX) NULL,
+    [GIS_ID]         NVARCHAR (MAX) NULL,
+    [ROLL]           NVARCHAR (MAX) NULL,
+    [PID]            NVARCHAR (MAX) NULL,
+    [STREET]         NVARCHAR (MAX) NULL,
+    [CIVIC_ADDRESS]  NVARCHAR (MAX) NULL,
+    [CIVIC_ADDRESS2] NVARCHAR (MAX) NULL,
+    [LTSA_LOT]       NVARCHAR (MAX) NULL,
+    [LTSA_PLAN]      NVARCHAR (MAX) NULL,
+    [LTSA_DL]        NVARCHAR (MAX) NULL,
+    [LEGAL_DETAIL]   NVARCHAR (MAX) NULL,
+    [OWNER_AGEN]     NVARCHAR (MAX) NULL,
+    [ACCURACY]       NVARCHAR (MAX) NULL,
+    [ZONE_CODE]      NVARCHAR (MAX) NULL,
+    [ZONE_DESC]      NVARCHAR (MAX) NULL,
+    [AREA_HA]        NVARCHAR (MAX) NULL,
+    [AREA_FT]        NVARCHAR (MAX) NULL,
+    [PARENT_ROLL]    NVARCHAR (MAX) NULL,
+    [Shape__Area]    NVARCHAR (MAX) NULL,
+    [Shape__Length]  NVARCHAR (MAX) NULL,
+    [SourceID]       INT            IDENTITY (1, 1) NOT NULL,
+    [Code]           VARCHAR (200)  NULL
+);
+

@@ -1,0 +1,27 @@
+﻿CREATE TABLE [StageProcessing].[InternalTIME] (
+    [SourceID]          INT             NULL,
+    [Code]              VARCHAR (200)   NULL,
+    [AddressID]         NVARCHAR (510)  NULL,
+    [City]              VARCHAR (200)   NULL,
+    [EstateTypeCode]    VARCHAR (50)    NULL,
+    [OccupancyTypeCode] VARCHAR (50)    NULL,
+    [PropertyTypeCode]  VARCHAR (200)   NULL,
+    [TransactionType]   VARCHAR (200)   NULL,
+    [Zoning]            VARCHAR (400)   NULL,
+    [Country]           VARCHAR (30)    NULL,
+    [LegalDescription]  VARCHAR (4000)  NULL,
+    [Province]          VARCHAR (50)    NULL,
+    [NewHomeEasement]   VARCHAR (5)     NULL,
+    [PostalCode]        VARCHAR (50)    NULL,
+    [PrimaryProperty]   VARCHAR (5)     NULL,
+    [PropertyIDNumber]  VARCHAR (50)    NULL,
+    [PurchasePrice]     DECIMAL (17, 2) NULL,
+    [FullAddress]       VARCHAR (500)   NULL,
+    [Sequence]          CHAR (1)        NULL,
+    [POSDate]           DATETIME        NULL,
+    [ClosingDate]       DATETIME        NULL,
+    [StatusID]          INT             NULL,
+    [ActionType]        CHAR (1)        NULL,
+    [IsDuplicate]       BIT             NULL
+);
+

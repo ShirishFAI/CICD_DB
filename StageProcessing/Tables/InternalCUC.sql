@@ -1,0 +1,28 @@
+﻿CREATE TABLE [StageProcessing].[InternalCUC] (
+    [SourceID]            INT             NULL,
+    [Code]                VARCHAR (200)   NULL,
+    [LegalDescription]    VARCHAR (4000)  NULL,
+    [Province]            VARCHAR (50)    NULL,
+    [IsNativeLand]        VARCHAR (5)     NULL,
+    [IsEnergy]            VARCHAR (5)     NULL,
+    [IsVacantLand]        VARCHAR (5)     NULL,
+    [IsMunicipalAddress]  VARCHAR (5)     NULL,
+    [PropertyType]        VARCHAR (200)   NULL,
+    [TransactionType]     VARCHAR (200)   NULL,
+    [PurchasePrice]       DECIMAL (17, 2) NULL,
+    [UnitNumber]          VARCHAR (100)   NULL,
+    [StreetNumber]        VARCHAR (100)   NULL,
+    [StreetAddress1]      VARCHAR (200)   NULL,
+    [StreetAddress2]      VARCHAR (200)   NULL,
+    [Municipality]        VARCHAR (100)   NULL,
+    [City]                VARCHAR (200)   NULL,
+    [AddressID]           NVARCHAR (510)  NULL,
+    [PIN]                 VARCHAR (50)    NULL,
+    [Country]             VARCHAR (30)    NULL,
+    [PostalCode]          VARCHAR (50)    NULL,
+    [OrganizationName]    VARCHAR (200)   NULL,
+    [CustomerClosingDate] DATETIME        NULL,
+    [ActionType]          CHAR (1)        NULL,
+    [IsDuplicate]         BIT             NULL
+);
+

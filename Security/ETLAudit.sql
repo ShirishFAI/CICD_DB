@@ -1,0 +1,3 @@
+﻿CREATE SCHEMA [ETLAudit]
+    AUTHORIZATION [dbo];
+

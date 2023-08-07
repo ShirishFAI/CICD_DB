@@ -1,0 +1,26 @@
+﻿CREATE TABLE [StageProcessing].[NS_ALL_Residential_Dwelling_Characteristics] (
+    [SourceID]                  INT             NULL,
+    [Code]                      VARCHAR (200)   NULL,
+    [Municipal Unit]            VARCHAR (100)   NULL,
+    [Assessment Account Number] VARCHAR (200)   NULL,
+    [Civic Number]              VARCHAR (100)   NULL,
+    [Civic Additional]          VARCHAR (100)   NULL,
+    [Civic Direction]           VARCHAR (20)    NULL,
+    [Civic Street Name]         VARCHAR (200)   NULL,
+    [Civic Street Suffix]       VARCHAR (200)   NULL,
+    [Civic City Name]           VARCHAR (200)   NULL,
+    [Living Units]              INT             NULL,
+    [Year Built]                INT             NULL,
+    [Square Foot Living Area]   DECIMAL (17, 2) NULL,
+    [Style]                     VARCHAR (100)   NULL,
+    [Bedrooms]                  DECIMAL (17, 2) NULL,
+    [Bathrooms]                 VARCHAR (20)    NULL,
+    [Finished Basement]         VARCHAR (20)    NULL,
+    [Garage]                    VARCHAR (20)    NULL,
+    [Y Map Coordinate]          VARCHAR (50)    NULL,
+    [X Map Coordinate]          VARCHAR (50)    NULL,
+    [Map Coordinates]           VARCHAR (50)    NULL,
+    [ActionType]                CHAR (1)        NULL,
+    [IsDuplicate]               BIT             NULL
+);
+

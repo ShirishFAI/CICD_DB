@@ -1,0 +1,3 @@
+﻿CREATE SCHEMA [ETLProcess]
+    AUTHORIZATION [dbo];
+

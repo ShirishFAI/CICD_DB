@@ -1,0 +1,24 @@
+﻿CREATE TABLE [StageLanding].[ON_YorkRegion_Parcels] (
+    [OBJECTID]      NVARCHAR (MAX) NULL,
+    [PAR_GIS_ID]    NVARCHAR (MAX) NULL,
+    [TOT_AROLL]     NVARCHAR (MAX) NULL,
+    [TOT_PIN]       NVARCHAR (MAX) NULL,
+    [LOCATION]      NVARCHAR (MAX) NULL,
+    [TOT_ADDRS]     NVARCHAR (MAX) NULL,
+    [MUNNAME]       NVARCHAR (MAX) NULL,
+    [PLANNUM]       NVARCHAR (MAX) NULL,
+    [PAR_TYPE]      NVARCHAR (MAX) NULL,
+    [LIFESTATUS]    NVARCHAR (MAX) NULL,
+    [CREDATE]       NVARCHAR (MAX) NULL,
+    [SOURCE]        NVARCHAR (MAX) NULL,
+    [SOURCETYPE]    NVARCHAR (MAX) NULL,
+    [MODDATE]       NVARCHAR (MAX) NULL,
+    [MODTYPE]       NVARCHAR (MAX) NULL,
+    [PRO_DATE]      NVARCHAR (MAX) NULL,
+    [PRO_NAME]      NVARCHAR (MAX) NULL,
+    [Shape__Area]   NVARCHAR (MAX) NULL,
+    [Shape__Length] NVARCHAR (MAX) NULL,
+    [SourceID]      INT            IDENTITY (1, 1) NOT NULL,
+    [Code]          VARCHAR (200)  NULL
+);
+

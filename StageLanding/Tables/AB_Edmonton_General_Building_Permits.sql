@@ -1,0 +1,27 @@
+﻿CREATE TABLE [StageLanding].[AB_Edmonton_General_Building_Permits] (
+    [Row ID]               NVARCHAR (MAX) NULL,
+    [PERMIT_DATE]          NVARCHAR (MAX) NULL,
+    [PERMIT_NUMBER]        NVARCHAR (MAX) NULL,
+    [YEAR]                 NVARCHAR (MAX) NULL,
+    [MONTH_NUMBER]         NVARCHAR (MAX) NULL,
+    [REPORT_PERMIT_DATE]   NVARCHAR (MAX) NULL,
+    [JOB_CATEGORY]         NVARCHAR (MAX) NULL,
+    [ADDRESS]              NVARCHAR (MAX) NULL,
+    [LEGAL_DESCRIPTION]    NVARCHAR (MAX) NULL,
+    [NEIGHBOURHOOD]        NVARCHAR (MAX) NULL,
+    [NEIGHBOURHOOD_NUMBER] NVARCHAR (MAX) NULL,
+    [JOB_DESCRIPTION]      NVARCHAR (MAX) NULL,
+    [BUILDING_TYPE]        NVARCHAR (MAX) NULL,
+    [WORK_TYPE]            NVARCHAR (MAX) NULL,
+    [FLOOR_AREA]           NVARCHAR (MAX) NULL,
+    [CONSTRUCTION_VALUE]   NVARCHAR (MAX) NULL,
+    [ZONING]               NVARCHAR (MAX) NULL,
+    [UNITS_ADDED]          NVARCHAR (MAX) NULL,
+    [LATITUDE]             NVARCHAR (MAX) NULL,
+    [LONGITUDE]            NVARCHAR (MAX) NULL,
+    [LOCATION]             NVARCHAR (MAX) NULL,
+    [COUNT]                NVARCHAR (MAX) NULL,
+    [SourceID]             INT            IDENTITY (1, 1) NOT NULL,
+    [Code]                 VARCHAR (200)  NULL
+);
+

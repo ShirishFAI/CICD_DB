@@ -1,0 +1,28 @@
+﻿CREATE TABLE [StageLanding].[ON_Mississauga_2017_Mississauga_Business_Directory] (
+    [FID]        NVARCHAR (MAX) NULL,
+    [CENT_X]     NVARCHAR (MAX) NULL,
+    [CENT_Y]     NVARCHAR (MAX) NULL,
+    [BID]        NVARCHAR (MAX) NULL,
+    [Name]       NVARCHAR (MAX) NULL,
+    [Address]    NVARCHAR (MAX) NULL,
+    [StreetNo]   NVARCHAR (MAX) NULL,
+    [StreetName] NVARCHAR (MAX) NULL,
+    [BldgNo]     NVARCHAR (MAX) NULL,
+    [UnitNo]     NVARCHAR (MAX) NULL,
+    [PostalCode] NVARCHAR (MAX) NULL,
+    [Location]   NVARCHAR (MAX) NULL,
+    [Ward]       NVARCHAR (MAX) NULL,
+    [NAICSCode]  NVARCHAR (MAX) NULL,
+    [NAICSSecto] NVARCHAR (MAX) NULL,
+    [NAICSTitle] NVARCHAR (MAX) NULL,
+    [EmplRange]  NVARCHAR (MAX) NULL,
+    [Phone]      NVARCHAR (MAX) NULL,
+    [Fax]        NVARCHAR (MAX) NULL,
+    [TollFree]   NVARCHAR (MAX) NULL,
+    [EMail]      NVARCHAR (MAX) NULL,
+    [WebAddress] NVARCHAR (MAX) NULL,
+    [EmplUpdate] NVARCHAR (MAX) NULL,
+    [SourceID]   INT            IDENTITY (1, 1) NOT NULL,
+    [Code]       VARCHAR (200)  NULL
+);
+

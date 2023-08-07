@@ -1,0 +1,25 @@
+﻿CREATE TABLE [StageProcessing].[InternalLLC] (
+    [SourceID]         INT             NULL,
+    [Code]             VARCHAR (200)   NULL,
+    [UnitNumber]       VARCHAR (100)   NULL,
+    [StreetNumber]     VARCHAR (100)   NULL,
+    [Streetaddress1]   VARCHAR (200)   NULL,
+    [StreetAddress2]   VARCHAR (200)   NULL,
+    [Municipality]     VARCHAR (100)   NULL,
+    [Province]         VARCHAR (50)    NULL,
+    [City]             VARCHAR (200)   NULL,
+    [LegalDescription] VARCHAR (4000)  NULL,
+    [IsNewHome]        VARCHAR (5)     NULL,
+    [EstateType]       VARCHAR (50)    NULL,
+    [OccupancyType]    VARCHAR (50)    NULL,
+    [PropertyType]     VARCHAR (200)   NULL,
+    [RentAssignment]   VARCHAR (200)   NULL,
+    [AddressId]        NVARCHAR (510)  NULL,
+    [AnnualTaxAmount]  DECIMAL (17, 2) NULL,
+    [ARN]              VARCHAR (200)   NULL,
+    [Country]          VARCHAR (30)    NULL,
+    [PostalCode]       VARCHAR (50)    NULL,
+    [ActionType]       CHAR (1)        NULL,
+    [IsDuplicate]      BIT             NULL
+);
+
